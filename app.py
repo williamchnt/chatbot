@@ -62,7 +62,10 @@ def generate_response(user_input):
     vector_matched = matched_vector[-1]
 
     if vector_matched == 0:
-        chatbot_answer = chatbot_answer + "I am sorry but I can't understand :("
+        chatbot_answer = chatbot_answer + "I am sorry but I can't understand, but I am still learning !"
+        f = open("QuestionDontKnow.txt\n", "a")
+        f.write(user_input)
+        f.close()
         unknown_answer.append(user_input)
         return chatbot_answer
     else:
