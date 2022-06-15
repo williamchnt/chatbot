@@ -4,6 +4,7 @@ import pandas as pd
 from nltk.corpus import stopwords
 import nltk
 nltk.download('punkt')
+nltk.download("stopwords")
 import numpy as np
 import random
 import string
