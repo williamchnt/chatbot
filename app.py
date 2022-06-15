@@ -3,6 +3,7 @@ import pandas as pd
 # Importing modules
 from nltk.corpus import stopwords
 import nltk
+nltk.download('punkt')
 import numpy as np
 import random
 import string
