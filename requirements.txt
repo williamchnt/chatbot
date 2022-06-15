@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.1
+nltk==3.7
+numpy==1.22.4
+pandas==1.4.2
+scikit_learn==1.1.1
+streamlit==1.10.0
+streamlit_chat==0.0.2.1
