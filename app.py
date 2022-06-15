@@ -124,7 +124,7 @@ def generate_answer():
                 # article_sentences.remove(human_text_lowered)
     else:
         st.session_state.history.append({"message": human_text, "is_user": True,"key":random.randint(1,100000)})
-        st.session_state.history.append({"message": "Chatbot: Good bye and take care of yourself... I'm staying here if you need more informations", "is_user": False,"key":random.randint(1,100000)})
+        st.session_state.history.append({"message": "Good bye and take care of yourself... I'm staying here if you need more informations", "is_user": False,"key":random.randint(1,100000)})
 
 
 st.text_input("Talk to the bot", key="input_text", on_change=generate_answer)
