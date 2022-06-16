@@ -97,7 +97,7 @@ all_word_vectors = word_vectorizer.fit_transform(article_sentences)
 
 
 greeting_inputs = ("hey", "good morning", "good evening", "morning", "evening", "hi", "whatsup",'hello')
-greeting_responses = ["hey", "hey hows you?", "*nods*", "hello, how you doing", "hello", "Welcome, I am good and you"]
+greeting_responses = ["hey", "hey how are you?", "*nods*", "hello, how you doing", "hello", "Welcome, I am good and you"]
 
 
 similar_vector_values = cosine_similarity(all_word_vectors[-1], all_word_vectors)
